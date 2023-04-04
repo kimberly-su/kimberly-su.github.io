@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 290vh;
+    background-color: #f1f1f1;
+}
+
+h1 {
+    animation-duration: 3s;
+    animation-name: move;
+    animation-delay: 500ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move{
+    0%{
+        margin-left: 50%;
+        width: 300%;
+    }
+    100%{
+        margin-left: 0%;
+        width: 100%;
+        font-size: 250px;
+    }
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+}
+
+h2 {
+    position: sticky;
+    background: #f1f1f1;
+    border: 6px solid black;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.positioned{
+    position: sticky;
+    top: 5px;
+    right: 80px;
+    bottom: -200px;
+    background: #f1f1f1;
+    justify-content: center;
+}
