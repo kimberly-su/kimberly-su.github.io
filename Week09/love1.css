@@ -1,0 +1,33 @@
+img {
+    width: 370px;
+    height: 370px;
+}
+body {
+    background-image: url('kimmyaugustin.JPG');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #f1f1f1;
+}
+h1:hover{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #f1f1f1;
+    position: relative;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+@keyframes grow {
+    0%{transform: scale(0.5);}
+    25%{transform: scale(1);}
+    50%{transform: scale(1.5);}
+    75%{transform: scale(2);}
+    100%{transform: scale(2.5);}
+}
