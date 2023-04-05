@@ -1,0 +1,73 @@
+body {
+    background-image: url('background.jpg');
+}
+.title img {
+    width: 450px;
+    height: 450px;
+    float: right;
+    transform: rotate(30deg);
+}
+.title {
+    animation: pulse 1s linear infinite;
+}
+@keyframes pulse {
+0% {
+    transform: scale(1.03);
+    transform: scale(1.03);
+}
+50% {
+   transform: scale(0.97);
+   transform: scale(0.97);
+}
+100% {
+    transform: scale(1);
+   transform: scale(1);
+}
+}
+
+.week1 img {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    left: 25px;
+}
+.week2 img {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    left: 300px;
+}
+.week3 img {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    right: 425px;
+}
+.week5 img {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    left: 162.5px;
+    top: 200px;
+}
+.week6 img {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    left: 25px;
+    top: 400px;
+}
+.week7 img {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    left: 275px;
+    bottom: 5px;
+}
+.week9 img {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    right: 550px;
+    bottom: 5px;
+}
