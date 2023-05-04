@@ -1,0 +1,62 @@
+body {
+    background-color: #a37759;
+}
+h1 {
+    font-family: 'Mansalva', cursive;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+span {
+    opacity: 0;
+    transition: all 0.4s ease;
+    transform: translateY(50px);
+    display: inline-block;
+}
+span.fade {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.description img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 30px;
+}
+.careguide img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 30px;
+    top: 575px;
+}
+.funfact img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 350px;
+    top: 360px;
+}
+.cactus img {
+    width: 750px;
+    height: 750px;
+    position: absolute;
+    right: 1px;
+}
+.cactus {
+    animation: pulse 1s linear infinite;
+}
+@keyframes pulse {
+0% {
+    transform: scale(1.03);
+    transform: scale(1.03);
+}
+50% {
+   transform: scale(0.97);
+   transform: scale(0.97);
+}
+100% {
+    transform: scale(1);
+   transform: scale(1);
+}
+}
