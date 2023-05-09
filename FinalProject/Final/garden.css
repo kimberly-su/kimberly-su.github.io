@@ -1,0 +1,12 @@
+html {    
+    background: url('Shelves.jpg') center;
+    background-size: cover;
+}
+img {
+    width: 325px;
+    height: 325px;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
