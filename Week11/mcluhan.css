@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+}
+.text span {
+    opacity: 0;
+    transition: all 0.4s ease;
+    display: inline-block;
+} 
+span.fade {
+    opacity: 1;
+}
+.image img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
